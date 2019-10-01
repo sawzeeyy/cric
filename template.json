@@ -1,0 +1,32 @@
+{
+    "chrome": {
+        "domain": "",
+        "expirationDate": "",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "",
+        "path": "/",
+        "sameSite": "unspecified",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "",
+        "id": ""
+    },
+    "firefox": {
+        "Host raw": "https://",
+        "Name raw": "",
+        "Path raw": "/",
+        "Content": "",
+        "Content raw": "",
+        "Expires": "At the end of the session",
+        "Expires raw": "0",
+        "Send for": "Encrypted connections only",
+        "Send for raw": "true",
+        "HTTP only raw": "false",
+        "This domain only": "Valid for subdomains",
+        "This domain only raw": "false",
+        "Private": "firefox-default",
+        "Private raw": "false"
+    }
+}
