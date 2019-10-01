@@ -56,7 +56,6 @@ else:
 output = output if args.output is None else args.output
 output = output if '/' in output else os.getcwd() + '/' + output
 cric_path = os.path.dirname(os.path.realpath(__file__))
-cric_path = '/'.join(cric_path.split('/')[:-1])
 
 with open(cric_path + '/template.json') as template:
     temp_cookie = json.load(template)[browser]
